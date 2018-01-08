@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo apt-get install g++
+sudo mkdir /usr/include/boost 
+sudo ln -s $PWD/boost/boost/*  /usr/include/boost/
+#sudo g++ *.cpp  -std=c++11 -o main 
+#sudo ./main
+exit 0
+
+
