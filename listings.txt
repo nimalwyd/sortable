@@ -16986,7 +16986,7 @@
 {"title":"Nikon D 90 Kit + DX 18-200 mm VR II FATBOX","manufacturer":"Nikon","currency":"EUR","price":"1389.00"}
 {"title":"Nikon D90 Gehäuse Fatbox","manufacturer":"Nikon","currency":"EUR","price":"798.00"}
 {"title":"Sony DSLR-A300X Digitalkamera 10.2 (3872 x 2592) + DT 18-70 mm F3,5-5,6 + DT 55-200 mm F4-5,6","manufacturer":"Sony","currency":"EUR","price":"479.99"}
-{"title":"Sony a (alpha) DSLR-A380nimaalaaaaaaaaaaaaaaaaH  nimallllllll krishna thusharaaaaaaaaa  - Digitalkamera - SLR, DSLR-A380H.CEE5","manufacturer":"nimal","currency":"EUR","price":"786.48"}
+{"title":"Sony a (alpha) DSLR-A380H - Digitalkamera - SLR, DSLR-A380H.CEE5","manufacturer":"Sony","currency":"EUR","price":"786.48"}
 {"title":"D300s+Tamron 18-200 mm","manufacturer":"Nikon","currency":"EUR","price":"1690.00"}
 {"title":"D3000+Tamron 18-270 mm VC","manufacturer":"Nikon","currency":"EUR","price":"699.00"}
 {"title":"Nikon D700 Digitalkamera 12.1 (4256 x 2832) Schwarz schwarz","manufacturer":"Nikon","currency":"EUR","price":"2646.00"}
