@@ -75,12 +75,10 @@ string Jsoniser::jsoniseData()
 
  int Jsoniser::writeToOutputFile()
  {
-ofstream myfile;
-myfile.open("output.txt",fstream::app);
+	ofstream myfile;
+	myfile.open("results.txt",fstream::app);
 
-
-	fstream output;
-	output.open("output.txt",fstream::app);  // data is added to the existing data without deleting it.But Before the writing starts 
+       // data is added to the existing data without deleting it.But Before the writing starts 
 						 //the contents of 'output.txt' is cleared in matcher.cpp
 	myfile<<Jsoniser::jsonSubstring;
 	myfile<<"["<<matchobject.matchedList<<"]"<<"}"<<endl;  //Matched list has all the listings json data that matched with the product searched for.

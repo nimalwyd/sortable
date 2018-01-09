@@ -50,7 +50,7 @@ void Matcher::checkForMatch() {
    
 	Jsoniser jsoniserObject;
 	std::ofstream clearTheFile; 
-	clearTheFile.open("output.txt", std::ofstream::out | std::ofstream::trunc);  // Used to initialise 'output.txt' as  an empty file.
+	clearTheFile.open("results.txt", std::ofstream::out | std::ofstream::trunc);  // Used to initialise 'results.txt' as  an empty file.
 	clearTheFile.close();
 	NumberOfMatches=0;    // Initialised the total number of matches found based on the search.
 	std::ifstream productsFile;
@@ -289,7 +289,7 @@ bool  Matcher::containsOnlyExactword(const std::string& sentence, const std::str
                 // isalpha checks if the given character is in the alphabet. Here we check
                 // if the characters before and after 'word' are alphabet characters. If neither
                 // of them is an alphabet character then we've found a whole word.
-                if (!(isalpha(sentence[pos - 1])) && !(isalpha(sentence[pos + word.size() ])))
+                if (!(    (isalpha(sentence[pos - 1]) || (isdigit(sentence[pos - 1])    )) )  && !(   (isalpha(sentence[pos + word.size() ])) || (isdigit(sentence[pos + word.size() ]))    ))
                         return true;
      //   }
         // If we get to here then we didn't find any instance of 'word' that was a whole word.
