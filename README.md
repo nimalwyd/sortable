@@ -9,7 +9,7 @@ This project is to search for a specific list item in the 'listings.txt' for a  
 
 ### Prerequisites
 
-Linux os
+Linux os <hr>
 All other dependencies are installed by the shell script if not installed
 
 ## Running the tests
@@ -19,7 +19,7 @@ To run this project,
 2. cd to the cloned repo
 3. run the below command
 ```
-sudo .\go.sh
+sudo ./go.sh
 ```
 ## Project status
 
